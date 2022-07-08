@@ -2,7 +2,7 @@ import React from "react"
 import Header from "./Components/header/header"
 import MainSobre from "./Components/main/Sobre/mainSobre"
 import MainFormaçao from "./Components/main/Formação/mainFormaçao"
-import styled from "styled-components"
+import Filter from "./Components/main/filter/MainFilter"
 import { createGlobalStyle} from "styled-components"
 
 const GlobalStyle = createGlobalStyle`
@@ -21,6 +21,7 @@ export default function App(){
       <Header/>
       <MainSobre/>
       <MainFormaçao/>
+      <Filter/>
     </>
   )
 }
