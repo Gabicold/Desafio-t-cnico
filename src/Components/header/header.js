@@ -1,7 +1,9 @@
 import React from "react"
 import * as S from "./stylesHeader"
 import logo from "./MidiaHeader/imagens/logo.png"
-export default function App(){
+
+export default function Header(){
+
 
   return(
     <S.HeaderBox>

@@ -13,11 +13,11 @@ background-size:100%;
 export const LogoUl = styled.section`
 display:flex;
 align-items:center;
-justify-content:space-between;
 height:10vh;
 width:100%;
 `
 export const LogoHeader = styled.img`
+position:fixed;
 width: 4vw;
 height: 6vh;
 margin-left:5vw;
@@ -27,7 +27,7 @@ display:flex;
 list-style:none;
 align-items:center;
 height:10vh;
-margin-right:16vw;
+margin-left:28vw;
 
 `
 export const BoxLi = styled.li`
@@ -58,10 +58,10 @@ justify-content:center;
 margin-left:10vw;
 `
 export const Title = styled.h1`
-width:65vw;
+width:80vw;
 height:container;
 color:#FFAC2D;
-font-size:3.3vw;
+font-size:4vw;
 `
 export const TitleDeco = styled.span`
 color:#FF611E;
