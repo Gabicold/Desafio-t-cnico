@@ -24,18 +24,28 @@ background-color:#0F2260;
 border:solid 1px #FFFFFF;
 border-radius:4px;
 margin-left:10vw;
+padding:1vw;
+color:#BCE0FD;
+font-weight:bold;
+font-family: 'Montserrat', sans-serif;
+placeholder-color: white;
 `
 export const BoxTeam = styled.div`
 display:flex;
-justify-content:space-between;
+justify-content:start;
 flex-wrap:wrap;
-width:70vw;
+width:82vw;
 height:container;
-
+margin-left:12vw;
 `
 export const TeamImage = styled.img`
-width:17vw;
+width:16.75vw;
 height: 30vh;
 z-index:1;
-border:solid black 2px ;
+margin-top:2vh;
+margin-right:1vw;
+z-index:2;
+`
+export const ImageText = styled.p`
+z-index:1;
 `

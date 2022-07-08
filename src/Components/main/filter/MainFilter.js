@@ -112,14 +112,14 @@ export default function MainFilter(){
                     <S.TeamInput value={busca} 
                     type="text" 
                     onChange={ (e)=> setBusca(e.target.value)}
-                    placeholder="Pesquisar">
+                    placeholder="Pesquisar...">
                     </S.TeamInput>
             </S.BoxInput>
             <S.BoxTeam>
                 {team.map(item => (
                     <div>
                         <S.TeamImage src={item.image}/>
-                        <p>{item.name}</p>
+                        <S.ImageText>{item.name}</S.ImageText>
                     </div>
                 ))}
             </S.BoxTeam>
