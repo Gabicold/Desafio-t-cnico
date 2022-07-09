@@ -67,6 +67,14 @@ font-size:4vw;
 `
 export const TitleDeco = styled.span`
 color:#FF611E;
+@keyframe{
+    from{
+        opacity:1;
+    }
+    to{
+        opacity:0;
+    }
+}
 `
 export const BoxSubTitle = styled.div`
 display:flex;

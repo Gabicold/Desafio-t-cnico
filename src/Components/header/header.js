@@ -56,7 +56,7 @@ export default function Header(){
       </nav>
       </S.LogoUl>
       <S.BoxElements>
-        <S.Title><S.TitleDeco>//</S.TitleDeco>Quer construir uma carreira de 
+        <S.Title><S.TitleDeco>/ /</S.TitleDeco>Quer construir uma carreira de 
         sucesso como Desenvolvedor(a) Front-end?
         </S.Title>
         <S.BoxSubTitle>
