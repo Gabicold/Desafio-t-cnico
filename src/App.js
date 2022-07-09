@@ -2,7 +2,8 @@ import React from "react"
 import Header from "./Components/header/header"
 import MainSobre from "./Components/main/Sobre/mainSobre"
 import MainFormaçao from "./Components/main/Formação/mainFormaçao"
-import Filter from "./Components/main/filter/MainFilter"
+import MainEquipe from "./Components/main/filter/MainFilter"
+import MainEventos from "./Components/main/Eventos/eventosMain"
 import { createGlobalStyle} from "styled-components"
 
 const GlobalStyle = createGlobalStyle`
@@ -21,7 +22,8 @@ export default function App(){
       <Header/>
       <MainSobre/>
       <MainFormaçao/>
-      <Filter/>
+      <MainEquipe/>
+      <MainEventos/>
     </>
   )
 }

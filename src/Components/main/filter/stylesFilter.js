@@ -64,7 +64,7 @@ margin-top:2vh;
 background-color:#0F2260;
 `
 export const TeamImage = styled.img`
-width:16.6vw;
+width:16.77vw;
 height: 30vh;
 z-index:1;
 position:relative;
