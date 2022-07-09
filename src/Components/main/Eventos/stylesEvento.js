@@ -39,8 +39,14 @@ font-weight:bold;
 display:flex;
 color:#0F2260;
 margin-bottom:5vh;
+@media (max-width:1440px){
+    font-size:2rem;
+}
 `
 export const Text = styled.p`
 font-size:1.1rem;
 font-weight:500;
+@media (max-width:1440px){
+    font-size:0.8rem;
+}
 `

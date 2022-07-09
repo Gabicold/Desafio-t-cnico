@@ -18,9 +18,11 @@ width:100%;
 `
 export const LogoHeader = styled.img`
 position:fixed;
+z-index:5;
 width: 4vw;
 height: 6vh;
 margin-left:5vw;
+cursor:pointer;
 `
 export const BoxUl = styled.ul`
 display:flex;

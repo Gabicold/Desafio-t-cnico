@@ -11,25 +11,31 @@ export default function Header(){
   }
   const goToFormaçao = ()=>{
     window.scrollTo({
-      top: 1000,
+      top: 1700,
       behavior: "smooth"
     })
   }
   const goToEquipe = ()=>{
     window.scrollTo({
-      top: 1000,
+      top: 2600,
       behavior: "smooth"
     })
   }
   const goToEventos = ()=>{
     window.scrollTo({
-      top: 1000,
+      top: 4200,
       behavior: "smooth"
     })
   }
   const goToContatos = ()=>{
     window.scrollTo({
-      top: 1000,
+      top: 4800,
+      behavior: "smooth"
+    })
+  }
+  const goToTop = ()=>{
+    window.scrollTo({
+      top: 0,
       behavior: "smooth"
     })
   }
@@ -38,14 +44,14 @@ export default function Header(){
   return(
     <S.HeaderBox>
       <S.LogoUl>
-      <S.LogoHeader src={logo} alt="LogoVaiNaWeb"/>
+      <S.LogoHeader onClick={()=>{goToTop()}} src={logo} alt="LogoVaiNaWeb"/>
       <nav>
         <S.BoxUl>
           <S.BoxLi><S.BoxA href="#" onClick={()=>{goToSobre()}}>Sobre</S.BoxA></S.BoxLi>
-          <S.BoxLi><S.BoxA href="#">Formação</S.BoxA></S.BoxLi>
-          <S.BoxLi><S.BoxA href="#">Equipe</S.BoxA></S.BoxLi>
-          <S.BoxLi><S.BoxA href="#">Eventos</S.BoxA></S.BoxLi>
-          <S.BoxLi><S.BoxA href="#">Contatos</S.BoxA></S.BoxLi>
+          <S.BoxLi><S.BoxA href="#" onClick={()=>{goToFormaçao()}}>Formação</S.BoxA></S.BoxLi>
+          <S.BoxLi><S.BoxA href="#" onClick={()=>{goToEquipe()}}>Equipe</S.BoxA></S.BoxLi>
+          <S.BoxLi><S.BoxA href="#" onClick={()=>{goToEventos()}}>Eventos</S.BoxA></S.BoxLi>
+          <S.BoxLi><S.BoxA href="#" onClick={()=>{goToContatos()}}>Contatos</S.BoxA></S.BoxLi>
         </S.BoxUl>
       </nav>
       </S.LogoUl>

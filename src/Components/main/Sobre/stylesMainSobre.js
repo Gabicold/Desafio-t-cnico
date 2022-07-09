@@ -25,13 +25,15 @@ font-size:3rem;
 color:#0F2260;
 display:flex;
 justify-content:center;
-
+@media(max-width:1440px){
+    font-size:2rem;
+}
 `
 export const TextSobre = styled.p`
 font-size:1.5rem;
 font-weight:500;
 margin-top:4vh;
-@media (max-width:1280px){
+@media (max-width:1440px){
     font-size:1rem;
 }
 

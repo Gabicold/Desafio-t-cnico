@@ -19,7 +19,7 @@ export default function Formaçao(){
                 <S.BoxSubTitleImg>
                     <S.BoxImg><S.ImgPc src={Pc} alt="Png de computador"/></S.BoxImg>
                     <S.BoxSubTitle>
-                    <S.SubTitle>front-end</S.SubTitle>
+                    <S.SubTitle>Back-end</S.SubTitle>
                         <S.Paragraph>O Back-End trabalha em boa parte dos casos fazendo a ponte entre os dados que vem do navegador rumo ao banco de dados e vice-versa,
                         sempre aplicando as devidas regras de negócio,
                         validações e garantias num ambiente restrito ao usuário final 

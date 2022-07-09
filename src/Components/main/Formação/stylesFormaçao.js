@@ -50,12 +50,17 @@ font-weight:bold;
 display:flex;
 color:#0F2260;
 text-transform:uppercase;
-
-
+@media (max-width:1440px){
+    font-size:2rem;
+}
 `
 export const Paragraph = styled.p`
 font-size:1.4rem;
 margin-top:2vh;
+@media (max-width:1440px){
+    font-size:1rem;
+    margin-top:1vh;
+}
 `
 export const ImgFormaçao = styled.img`
 width:49vw;

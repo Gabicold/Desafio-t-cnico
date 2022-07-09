@@ -81,6 +81,9 @@ color:white;
 font-size:1.5rem;
 font-family: 'Montserrat', sans-serif;
 margin-right:1vw;
+@media (max-width:1440px){
+    font-size:1rem;
+}
 `
 export const TextFunction = styled.p`
 position:absolute;
@@ -91,4 +94,7 @@ color:white;
 font-size:1rem;
 font-family: 'Montserrat', sans-serif;
 margin-right:1vw;
+@media (max-width:1440px){
+    font-size:0.6rem;
+}
 `
