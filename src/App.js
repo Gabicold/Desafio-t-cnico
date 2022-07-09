@@ -4,6 +4,7 @@ import MainSobre from "./Components/main/Sobre/mainSobre"
 import MainFormaçao from "./Components/main/Formação/mainFormaçao"
 import MainEquipe from "./Components/main/filter/MainFilter"
 import MainEventos from "./Components/main/Eventos/eventosMain"
+import Footer from "./Components/footer/footer"
 import { createGlobalStyle} from "styled-components"
 
 const GlobalStyle = createGlobalStyle`
@@ -24,6 +25,7 @@ export default function App(){
       <MainFormaçao/>
       <MainEquipe/>
       <MainEventos/>
+      <Footer/>
     </>
   )
 }

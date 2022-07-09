@@ -3,15 +3,45 @@ import * as S from "./stylesHeader"
 import logo from "./MidiaHeader/imagens/logo.png"
 
 export default function Header(){
+  const goToSobre = ()=>{
+    window.scrollTo({
+      top: 1000,
+      behavior: "smooth"
+    })
+  }
+  const goToFormaçao = ()=>{
+    window.scrollTo({
+      top: 1000,
+      behavior: "smooth"
+    })
+  }
+  const goToEquipe = ()=>{
+    window.scrollTo({
+      top: 1000,
+      behavior: "smooth"
+    })
+  }
+  const goToEventos = ()=>{
+    window.scrollTo({
+      top: 1000,
+      behavior: "smooth"
+    })
+  }
+  const goToContatos = ()=>{
+    window.scrollTo({
+      top: 1000,
+      behavior: "smooth"
+    })
+  }
 
-
+  
   return(
     <S.HeaderBox>
       <S.LogoUl>
       <S.LogoHeader src={logo} alt="LogoVaiNaWeb"/>
       <nav>
         <S.BoxUl>
-          <S.BoxLi><S.BoxA href="#">Sobre</S.BoxA></S.BoxLi>
+          <S.BoxLi><S.BoxA href="#" onClick={()=>{goToSobre()}}>Sobre</S.BoxA></S.BoxLi>
           <S.BoxLi><S.BoxA href="#">Formação</S.BoxA></S.BoxLi>
           <S.BoxLi><S.BoxA href="#">Equipe</S.BoxA></S.BoxLi>
           <S.BoxLi><S.BoxA href="#">Eventos</S.BoxA></S.BoxLi>
