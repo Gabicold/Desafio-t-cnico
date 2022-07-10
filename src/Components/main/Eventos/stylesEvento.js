@@ -49,4 +49,7 @@ font-weight:500;
 @media (max-width:1440px){
     font-size:0.8rem;
 }
+@media(max-width:1024px){
+    font-size:0.7rem;
+}
 `

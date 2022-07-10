@@ -31,9 +31,15 @@ color:white;
 @media (max-width:1440px){
     font-size:1.2rem;
 }
+@media (max-width:1024px){
+    font-size:0.8rem;
+}
 `
 export const ImageFooter = styled.img`
 width:4.5vw;
 height:9vh;
 margin-left:2vw;
+@media (max-width:1024px){
+    height:6vh;
+}
 `

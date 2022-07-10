@@ -14,6 +14,7 @@ flex-direction:column;
 width:49vw;
 height:70vh;
 margin-left:10vw;
+
 `
 export const LogoMain = styled.img`
 width:26vw;

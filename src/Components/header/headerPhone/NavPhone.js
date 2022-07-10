@@ -1,13 +1,8 @@
 import React from "react"
-import * as S from "../stylesHeader"
+import * as S from "./styles"
 import logo from "../MidiaHeader/imagens/logo.png"
 
 export default function Nav(){
-
-
-
-
-
 
     const goToSobre = ()=>{
         window.scrollTo({

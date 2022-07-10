@@ -70,6 +70,9 @@ z-index:1;
 position:relative;
 z-idex:1;
 -webkit-mask-image: linear-gradient(to top, transparent 5%, black 50%);
+@media(max-width:1024px){
+    height:25vh;
+}
 `
 
 export const ImageName = styled.p`
