@@ -59,7 +59,7 @@ font-size:1.4rem;
 margin-top:2vh;
 @media (max-width:1440px){
     font-size:1rem;
-    margin-top:1vh;
+    margin-top:2vh;
 }
 `
 export const ImgFormaçao = styled.img`
