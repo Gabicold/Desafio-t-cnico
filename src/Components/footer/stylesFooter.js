@@ -11,6 +11,11 @@ background-size:100% 100%;
 width:100%;
 height:50vh;
 margin-top:25vh;
+
+@media(max-width:720px){
+    
+    
+}
 `
 export const BoxContato = styled.h2`
 color: white;

@@ -5,15 +5,20 @@ display:flex;
 justify-content:space-around;
 weight:100%;
 height:90vh;
+
+@media(max-width:720px){
+    
+    flex-direction:column;
+}
 `
 export const BoxEfor = styled.section`
-
 `
 export const Formaçao = styled.h2`
 font-size:3rem;
 color:#0F2260;
 display:flex;
 margin-left:10vw;
+
 `
 export const BoxSubTitleImg = styled.section`
 display:flex;
@@ -22,6 +27,7 @@ height:20vh;
 margin-left:11vw;
 margin-top:3vh;
 margin-bottom:5vh;
+
 `
 // <imagemPc>
 export const BoxImg = styled.div`
@@ -33,10 +39,16 @@ background-color:#FDE7A9;
 width:25vw;
 height:13vh;
 border:dashed 6px #FFAC2D ;
+
 `
 export const ImgPc = styled.img`
 width:3.2vw;
 height:5.6vh;
+
+@media(max-width:1024px){
+    width:3.2vw;
+    height:4.2vh;
+}
 `
 // <imagemPc/>
 export const BoxSubTitle = styled.section`
@@ -50,6 +62,7 @@ font-weight:bold;
 display:flex;
 color:#0F2260;
 text-transform:uppercase;
+
 @media (max-width:1440px){
     font-size:2rem;
 }
@@ -57,6 +70,7 @@ text-transform:uppercase;
 export const Paragraph = styled.p`
 font-size:1.4rem;
 margin-top:2vh;
+
 @media (max-width:1440px){
     font-size:1rem;
     margin-top:2vh;
@@ -64,9 +78,10 @@ margin-top:2vh;
 @media(max-width:1024px){
     font-size:0.8rem;
 }
+
 `
 export const ImgFormaçao = styled.img`
 width:49vw;
 height:68vh;
-margin-left:11vw;
+margin-left:9vw;
 `

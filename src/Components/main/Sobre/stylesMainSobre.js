@@ -7,6 +7,10 @@ justify-content:center;
 width:100%;
 height:90vh;
 font-family: 'Montserrat', sans-serif;
+
+@media(max-width:720px){
+    flex-direction:column;
+}
 `
 export const BoxSobre = styled.section`
 display:flex;
@@ -20,12 +24,14 @@ export const LogoMain = styled.img`
 width:26vw;
 height:37vh;
 margin-left:10vw;
+
 `
 export const Sobre = styled.h2`
 font-size:3rem;
 color:#0F2260;
 display:flex;
 justify-content:center;
+
 @media(max-width:1440px){
     font-size:2rem;
 }
@@ -37,5 +43,6 @@ margin-top:4vh;
 @media (max-width:1440px){
     font-size:1rem;
 }
+
 
 `

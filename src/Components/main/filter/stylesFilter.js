@@ -14,7 +14,10 @@ width:100%;
 height:container;
 flex-direction:column;
 align-items:center;
-
+@media(max-width:720px){
+    
+    
+}
 `
 export const BoxInput = styled.div`
 display:flex;
@@ -51,7 +54,10 @@ flex-wrap:wrap;
 width:82vw;
 height:container;
 margin-left:12vw;
-
+@media(max-width:720px){
+    width:70vw;
+    margin-left:0vw;
+}
 `
 
 export const BoxImage = styled.section`
