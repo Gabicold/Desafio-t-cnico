@@ -7,6 +7,7 @@ flex-direction:column;
 width:100%;
 height:80vh;
 margin-top:15vh;
+
 @media(max-width:720px){
    
     

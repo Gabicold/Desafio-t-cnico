@@ -84,6 +84,7 @@ color:#FFAC2D;
 font-size:4vw;
 @media(max-width:720px){
     width:79vw;
+    font-size:5vw;
 }
 `
 export const TitleDeco = styled.span`
@@ -166,7 +167,7 @@ export const TextForm = styled.h2`
 font-size:1.5vw;
 color:#FED5B2;
 @media(max-width:720px){
-    font-size:3vw;
+    font-size:4vw;
 }
 `
 export const LinkForm = styled.span`

@@ -14,6 +14,7 @@ width:100%;
 height:container;
 flex-direction:column;
 align-items:center;
+
 @media(max-width:720px){
     
     

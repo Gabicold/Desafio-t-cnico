@@ -13,7 +13,7 @@ display:none;
 export const LogoHeader = styled.img`
 position:fixed;
 z-index:5;
-width: 12vw;
+width: 15vw;
 height: 6vh;
 margin-left:5vw;
 cursor:pointer;
