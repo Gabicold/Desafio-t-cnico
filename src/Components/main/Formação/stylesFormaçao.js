@@ -7,20 +7,19 @@ weight:100%;
 height:90vh;
 font-family: 'Montserrat', sans-serif;
 @media(max-width:720px){
-    justify-content:none;
     align-items:center;
     flex-direction:column;
-    border:solid red 1px;
     margin-top:5vh;
 }
 `
 export const BoxEfor = styled.section`
 @media(max-width:720px){
     width:80vw;
-    height:50vh;
+    height:80vh;
     display:flex;
     flex-direction:column;
     align-items:center;
+    border:solid red 1px;
 }
 `
 export const Formaçao = styled.h2`
@@ -31,7 +30,7 @@ margin-left:10vw;
 @media(max-width:720px){
     font-size:4rem;
     margin-left:0vw;
-    color:red;
+    
 }
 `
 export const BoxSubTitleImg = styled.section`
