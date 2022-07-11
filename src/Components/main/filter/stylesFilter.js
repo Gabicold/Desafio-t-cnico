@@ -16,7 +16,7 @@ flex-direction:column;
 align-items:center;
 
 @media(max-width:720px){
-    
+    margin-top:15vh;
     
 }
 `
@@ -26,7 +26,11 @@ align-items:center;
 width:70vw;
 height:15vh;
 background-color:#0F2260;
-
+@media(max-width:720px){
+    width:95vw;
+    height:10vh;
+    border-radius:2vw;
+}
 `
 export const TeamInput = styled.input`
 width:15vw;
@@ -46,6 +50,15 @@ background-position:right;
     color: #BCE0FD;
     font-style:italic;
     font-family: 'Montserrat', sans-serif;
+}
+@media(max-width:720px){
+    width:35vw;
+    background-size:6vw;
+    ::placeholder{
+        color: #BCE0FD;
+        font-style:italic;
+        font-family: 'Montserrat', sans-serif;
+        font-size:1.2rem;
 }
 `
 export const BoxTeam = styled.div`

@@ -10,6 +10,8 @@ font-family: 'Montserrat', sans-serif;
     justify-content:none;
     align-items:center;
     flex-direction:column;
+    border:solid red 1px;
+    margin-top:5vh;
 }
 `
 export const BoxEfor = styled.section`
@@ -29,6 +31,7 @@ margin-left:10vw;
 @media(max-width:720px){
     font-size:4rem;
     margin-left:0vw;
+    
 }
 `
 export const BoxSubTitleImg = styled.section`
