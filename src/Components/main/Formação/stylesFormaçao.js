@@ -31,7 +31,7 @@ margin-left:10vw;
 @media(max-width:720px){
     font-size:4rem;
     margin-left:0vw;
-    
+    color:red;
 }
 `
 export const BoxSubTitleImg = styled.section`
